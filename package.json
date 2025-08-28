@@ -1,0 +1,26 @@
+{
+  "name": "markscribe-ts",
+  "version": "1.0.0",
+  "description": "typescript version of markscribe",
+  "main": "dist/cli.js",
+  "bin": {
+    "markscribe-ts": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "markdown",
+    "template",
+    "github",
+    "cli",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  },
+  "author": "frer0t <mail@frerot.dev>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.15.0"
+}
